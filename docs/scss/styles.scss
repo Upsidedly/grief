@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Kantumruy+Pro|Arima');
+
+$background: rgb(35, 32, 39);
+
+body { margin: 0; background-color: $background; }
+
+a {
+    color: #fff;
+}
+
+.waves {
+    font-family: Arima;
+}
+
+#content {
+    p {
+        position: absolute;
+        color: rgb(238, 227, 242);
+        font-size: 2.5vh;
+        // text-align: center;
+        margin: 0% 25%;
+        padding: 1em;
+        width: 50%;
+        height: max-content;
+        font-family: 'Kantumruy Pro';
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        white-space: normal!important;
+    }
+}
